@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionHome">
+        <div class="bg-container d-flex flex-column justify-content-end">
+            <div class="tourism-card">
+                <h1 class="main-heading">EM BABU THINNARA</h1>
+                <p class="paragraph">OUR FOOD GOAL : ORDER YOUR FAVOURITES WITH THE BEST</p>
+                <header>
+                    <nav>
+                        <ul>
+                            <li><button class="button" onclick="display('sectionFavouritePlaces1')"><a href="#"> HOME</a></button></li>
+                            <li><button class="button" onclick="display('sectionFavouritePlaces2')"><a href="#"> MENU</a></button></li>
+                            <li><button class="button" onclick="display('sectionFavouritePlaces4')"><a href="#"> ORDER</a></button></li>
+                            <li><button class="button" onclick="display('sectionFavouritePlaces5')"><a href="#"> OUROWN</a></button></li>
+                            <li><button class="button" onclick="display('sectionFavouritePlaces6')"><a href="#"> DONATE</a></button></li>
+                            <li><button class="button" onclick="display('sectionFavouritePlaces3')"><a href="#"> CONTACT</a></button></li>
+                        </ul>
+                    </nav>
+                </header>
+                <main>
+                    <!-- Your main content goes here -->
+                </main>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; 2024 OURFOODGOAL. All rights reserved.</p>
+        </footer>
+    </div>
+    <div id="sectionFavouritePlaces1">
+        <div class="favourite-places-bg-container1">
+            <h1 class="favourite-places-heading1">ORDER FROM YOUR NEAREST RESTAURANTS</h1>
+            <div class="favourite-place-card-container1 d-flex flex-row" onclick="display('sectionLUCKYKABABSDetailedView')">
+                <div>
+                    <h1 class="favourite-place-card-heading1"><a href="#">LUCKY KABABS</a></h1>
+                    <p class="favourite-place-card-description1">
+                    </p>
+                </div>
+            </div>
+            <div class="favourite-place-card-container1 d-flex flex-row" onclick="display('sectionMILANDABHADetailedView')">
+                <div>
+                    <h1 class="favourite-place-card-heading1"><a href="#">MILAN DABHA</a></h1>
+                    <p class="favourite-place-card-description1">
+                    </p>
+                </div>
+            </div>
+            <div class="favourite-place-card-container1 d-flex flex-row" onclick="display('sectionMRCBDetailedView')">
+                <div>
+                    <h1 class="favourite-place-card-heading1"><a href="#">MRCB</a></h1>
+                    <p class="favourite-place-card-description1">
+
+                    </p>
+                </div>
+
+            </div>
+            <div class="favourite-place-card-container1 d-flex flex-row" onclick="display('sectionLAZEEZARABIANMANDIDetailedView')">
+                <div>
+                    <h1 class="favourite-place-card-heading1"><a href="#">LAZEEZ MANDI</a></h1>
+                    <p class="favourite-place-card-description1">
+
+                    </p>
+                </div>
+
+            </div>
+
+            <button class="btn btn-dark" onclick="display('sectionHome')">back</button>
+        </div>
+    </div>
+    <div id="sectionLUCKYKABABSDetailedView">
+        <div class="detailed-view-bg-container1">
+            <h1 class="favourite-place-card-container2 d-flex flex-row">LUCKY KABABS WELCOMES YOU</h1>
+            <div class="detailed-view-card-container1">
+                <div class="detailed-view-card-text-container1">
+                    <h1 class="detailed-view-card-heading1">AVAILABE FOOD ITEMS TODAY</h1>
+                    <p>CHICKEN BIRYANI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>MUTTON BIRYANI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>STARTERS <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>FAMILY PACKS <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>FAST FOOD <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionFavouritePlaces1')">
+                back
+            </button>
+        </div>
+    </div>
+    <div id="sectionMRCBDetailedView">
+        <div class="detailed-view-bg-container1">
+            <h1 class="favourite-place-card-container2 d-flex flex-row">MRCB WELCOMES YOU</h1>
+            <div class="detailed-view-card-container1">
+                <div class="detailed-view-card-text-container1">
+                    <h1 class="detailed-view-card-heading1">AVAILABE FOOD ITEMS TODAY</h1>
+                    <p>CHICKEN BIRYANI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>MUTTON BIRYANI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>STARTERS <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>FAMILY PACKS <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>FAST FOOD <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>CHICKEN MANDI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>MUTTON MANDI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>MIXED MANDI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionFavouritePlaces1')">
+                back
+            </button>
+        </div>
+    </div>
+    <div id="sectionMILANDABHADetailedView">
+        <div class="detailed-view-bg-container1">
+            <h1 class="favourite-place-card-container2 d-flex flex-row">MILAN DHABA WELCOMES YOU</h1>
+            <div class="detailed-view-card-container1">
+                <div class="detailed-view-card-text-container1">
+                    <h1 class="detailed-view-card-heading1">AVAILABE FOOD ITEMS TODAY</h1>
+                    <p>ROTIS <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>NON-VEG CURRIES <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>VEG CURRIES <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>BIRYANIS <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>FAST FOOD <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionFavouritePlaces1')">
+                back
+            </button>
+        </div>
+    </div>
+    <div id="sectionLAZEEZARABIANMANDIDetailedView">
+        <div class="detailed-view-bg-container1">
+            <h1 class="favourite-place-card-container2 d-flex flex-row">LAZEEZ MANDI WELCOMES YOU</h1>
+            <div class="detailed-view-card-container1">
+                <div class="detailed-view-card-text-container1">
+                    <h1 class="detailed-view-card-heading1">AVAILABE FOOD ITEMS TODAY</h1>
+                    <p>CHICKEN MANDI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>MUTTON MANDI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>PANNER MANDI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>MIXED MANDI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>UNLIMITED MANDI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionFavouritePlaces1')">
+                back
+            </button>
+        </div>
+    </div>
+    <div id="sectionFavouritePlaces2">
+        <div class="detailed-view-bg-container1">
+            <h1 class="favourite-place-card-container2 d-flex flex-row">MENU OF YOUR FAVOURITES</h1>
+            <div class="detailed-view-card-container1">
+                <div class="detailed-view-card-text-container1">
+                    <h1 class="detailed-view-card-heading1">AVAILABE FOOD ITEMS TODAY</h1>
+                    <p>CHICKEN BIRYANI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>MUTTON BIRYANI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>STARTERS <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>FAMILY PACKS <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>FAST FOOD <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>ROTIS <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>TIFFINS <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>MEALS <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>SNACKS <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>VEG CURRIES <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>NON-VEG CURRIES <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>CHICKEN MANDI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>MUTTON MANDI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>MIXED MANDI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                    <p>VEG MANDI <a onclick="display('sectionFavouritePlaces4')" href="#"> ORDER NOW</a></p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('sectionHome')">
+                back
+            </button>
+        </div>
+    </div>
+    <div id="sectionFavouritePlaces3">
+        <div class="detailed-view-bg-container1">
+            <h1 class="favourite-place-card-container2 d-flex flex-row">FOR HELP CONTACT US </h1>
+            <div class="detailed-view-card-container1">
+                <div class="detailed-view-card-text-container1">
+                    <div id="ContactUs">
+                        <h1>Contact Us</h1>
+                        <form action="#">
+                            <div class="form-shape">
+                                <label for="query">
+                                    Type of Query
+                                </label>
+                                <select name="myQuery" id="query">
+                                    <option value="sel" selected>
+                                        Select
+                                    </option>
+                                    <option value="ord">
+                                        Order related Issues
+                                    </option>
+                                    <option value="Site">
+                                        Site related Issues
+                                    </option>
+                                    <option value="fed">
+                                        Complaint related Issues
+                                    </option>
+                                    <option value="others">
+                                        Others
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="form-shape">
+                                <label for="name">Name</label>
+                                <input type="text" name="myName" id="name" placeholder="Enter your Name">
+                            </div>
+                            <div class="form-shape">
+                                <label for="email">Email-Id</label>
+                                <input type="email" name="myEmail" id="email" placeholder="Enter your email">
+                            </div>
+                            <div class="form-shape">
+                                <label for="pho">Phone Number</label>
+                                <input type="phone" name="myPhone" id="pho" placeholder="Enter your Phone no">
+                            </div>
+                            <div id="radio">
+                                Are you a member of OURFOODGOAL:
+                                Yes <input type="radio" name="eligible">
+                                No <input type="radio" name="eligible">
+                            </div>
+                            <div class="form-shape">
+                                <label for="message">
+                                    Ellaborate your query
+                                </label>
+                                <textarea name="mesg" id="message" cols="30" rows="10">
+				</textarea>
+                            </div>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </form>
+                        <button class="btn btn-dark" onclick="display('sectionHome')">
+                            back
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="sectionFavouritePlaces4">
+        <div class="detailed-view-bg-container1">
+            <h1 class="favourite-place-card-container2 d-flex flex-row">PLACE YOUR ORDER </h1>
+            <div class="detailed-view-card-container1">
+                <div class="detailed-view-card-text-container1">
+                    <div id="order-now">
+                        <h2>Order Now</h2>
+                        <form>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <br>
+                            <label for="address">Address:</label>
+                            <input type="text" id="address" name="address" required>
+                            <br>
+                            <label for="item">Select Item:</label>
+                            <select id="item" name="item" required>
+                                <option value="burger">CHICKEN BIRYANI</option>
+                                <option value="pizza">MUTTON BIRYANI</option>
+                                <option value="pasta">STARTERS</option>
+                                <option value="pasta1">FAMILY PACKS</option>
+                                <option value="pasta2">FAST FOOD</option>
+                                <option value="pasta3">ROTIS</option>
+                                <option value="pasta4">TIFFINS</option>
+                                <option value="pasta5">MEALS</option>
+                                <option value="pasta6">SNACKS</option>
+                                <option value="pasta7">VEG CURRIES</option>
+                                <option value="pasta8">NON-VEG CURRIES </option>
+                                <option value="pasta9">CHICKEN MANDI </option>
+                                <option value="pasta10">MUTTON MANDI </option>
+                                <option value="pasta11">MIXED MANDI </option>
+                                <option value="pasta12">VEG MANDI </option>
+                                <!-- Add more options as needed -->
+                            </select>
+                            <button type="submit">Place Order</button>
+                        </form>
+                    </div>
+                </div>
+
+                <button class="btn btn-dark" onclick="display('sectionHome')">
+                    back
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFavouritePlaces5">
+        <div class="detailed-view-bg-container1">
+            <h1 class="favourite-place-card-container2 d-flex flex-row">ORDER THE HOMEMADE FOOD</h1>
+            <div class="detailed-view-card-container1">
+                <div class="detailed-view-card-text-container1">
+                    <div id="order-now">
+                        <h2>Order Now</h2>
+                        <form>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                            <br>
+                            <label for="address">Address:</label>
+                            <input type="text" id="address" name="address" required>
+                            <br>
+                            <label for="item">TYPE THE ITEM WHAT YOU WANT TO ORDER FROM THE HOME WITH CLEAR DESCRIPTION:</label>
+                            <textarea name="mesg" id="message" cols="30" rows="10">
+				</textarea>
+                            <button type="submit">Place Order</button>
+                        </form>
+                    </div>
+                </div>
+
+                <button class="btn btn-dark" onclick="display('sectionHome')">
+                    back
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionFavouritePlaces6">
+        <div class="detailed-view-bg-container1">
+            <h1 class="favourite-place-card-container2 d-flex flex-row">DONATE THE FOOD IF YOU CAN</h1>
+            <div class="detailed-view-card-container1">
+                <div class="detailed-view-card-text-container1">
+                    <div id="ContactUs">
+                        <h1>FILL THE DETAILS REGARDING THE DONATION</h1>
+                        <form action="#">
+                            <div class="form-shape">
+                                <label for="query">
+                                    SELECT NO.OF PERSONS :
+                                </label>
+                                <select name="myQuery" id="query">
+                                    <option value="sel" selected>
+                                        Select
+                                    </option>
+                                    <option value="ord">
+                                        LESS THAN 20
+                                    </option>
+                                    <option value="Site">
+                                        20-50
+                                    </option>
+                                    <option value="fed">
+                                        50-100
+                                    </option>
+                                    <option value="others">
+                                        100-500
+                                    </option>
+                                    <option value="others">
+                                        500-1000
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="form-shape">
+                                <label for="name">Name</label>
+                                <input type="text" name="myName" id="name" placeholder="Enter your Name">
+                            </div>
+                            <div class="form-shape">
+                                <label for="email">Email-Id</label>
+                                <input type="email" name="myEmail" id="email" placeholder="Enter your email">
+                            </div>
+                            <div class="form-shape">
+                                <label for="pho">Phone Number</label>
+                                <input type="phone" name="myPhone" id="pho" placeholder="Enter your Phone no">
+                            </div>
+                            <div id="radio">
+                                Are you a member of OURFOODGOAL:
+                                Yes <input type="radio" name="eligible">
+                                No <input type="radio" name="eligible">
+                            </div>
+                            <label for="item">Select Item which you are donating:</label>
+                            <select id="item" name="item" required>
+                                <option value="burger">BIRYANIS</option>
+                                <option value="pasta4">TIFFINS</option>
+                                <option value="pasta5">MEALS</option>
+                                <!-- Add more options as needed -->
+                            </select>
+                            <button type="submit">DONATE</button>
+                        </form>
+                        <button class="btn btn-dark" onclick="display('sectionHome')">
+                            back
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
